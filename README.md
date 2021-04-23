@@ -1,7 +1,6 @@
-# RAIN Will Stop the Fires
 # Crypto Conservation: Preventing Amazon Deforestation Utilizing Blockchain
  
-The inspiration for this project was the notion that the theory of tokenomics could be used to promote positive behavior in the real world. We wanted to see if tokenomics could be applied to the problem of landowners in Brazil burning the Amazon Rainforest for economic gains. While this behavior is advantageous to the individual landowner and the government of Brazil, the destruction of the Amazon Rainforest is detrimental to the rest of the world. NASA satellites monitoring the earth are able to detect if certain latitude and longitude coordinates in the Amazon Rainforest are currently showing signs of being on fire. If we could tie that data to landowners' plots of land we could incentivize the landowners to maintain the rainforest by paying them more than they would get if the burned their land and changed it to agricultural land.
+The inspiration for this project was the notion that the theory of tokenomics could be used to promote positive behavior in the real world. I wanted to see if tokenomics could be applied to the problem of landowners in Brazil burning the Amazon Rainforest for economic gains. While this behavior is advantageous to the individual landowner and the government of Brazil, the destruction of the Amazon Rainforest is detrimental to the rest of the world. NASA satellites monitoring the earth are able to detect if certain latitude and longitude coordinates in the Amazon Rainforest are currently showing signs of being on fire. If we could tie that data to landowners' plots of land we could incentivize the landowners to maintain the rainforest by paying them more than they would get if the burned their land and changed it to agricultural land.
  
 ## Applicable Blockchain Pillars
  
@@ -15,7 +14,7 @@ Blockchain is a appropriate technology to use for this project because of a few 
  
 ## Implementation
  
-We created two contracts in Solidity. The first contract controls our fundraising efforts and the second controls our land registry, coin issuance, reporting and payouts. Following are the instructions for using each of the contracts.
+I created two contracts in Solidity. The first contract controls the fundraising efforts and the second controls the land registry, coin issuance, reporting and payouts. Following are the instructions for using each of the contracts.
 
 (Use the files contained in the Contracts folder)
  
@@ -71,13 +70,7 @@ We created two contracts in Solidity. The first contract controls our fundraisin
  
 ## Issues and Next Steps
  
-- We created a python file to interact with our LandFax.sol contract (included in the repo), but the "get" function wouldn't work
- 
-- We want to use a web3 filter in the python code to interact with our payment function
- 
-- We want the NASA data to downloaded automatically to interact with our contracts
- 
-- We would like to automate the process and remove any manual actions so that the landowners are paid automatically if they don't have a fire and are removed from the payment list is a fire is reported 
+The project is not fully functional yet and requires additional work before it can be deployed to the mainnet. 
 
 
 
